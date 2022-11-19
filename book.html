@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <meta name="description" content="A brief description" />
+    <meta name="author" content="Little Lemon Restuarant" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <img src="pictures/Asset 14@4x.png" class="logo" alt="Little Lemon Logo" />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container mt-5 mb-5 d-flex justify-content-center">
+        <div class="card px-1 py-4">
+          <div class="card-body">
+            <h6 class="card-title mb-3">This booking is for</h6>
+            <div class="d-flex flex-row">
+              <label for="two" class="radio">
+                <input type="radio" id="two" name="two" value="2" checked /> <span> <i class="fa fa-user"></i> 2 </span>
+              </label>
+              <label for="four" class="radio">
+                <input type="radio" id="four" name="four" value="4" /> <span> <i class="fa fa-user"></i> 4 </span>
+              </label>
+              <label for="six" class="radio">
+                <input type="radio" id="six" name="six" value="6" /> <span> <i class="fa fa-user"></i> 6 </span>
+              </label>
+              <label for="eight" class="radio">
+                <input type="radio" id="eight" name="eight" value="eight" /> <span> <i class="fa fa-user"></i> 8 </span>
+              </label>
+            </div>
+            <h6 class="information mt-4">Please provide customer details</h6>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Name" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <div class="input-group"><input class="form-control" type="text" placeholder="Mobile" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <div class="input-group"><input class="form-control" type="text" placeholder="Email ID" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column text-center px-5 mt-3 mb-3"><small class="agree-text">By confirming this booking you agree to our </small> <a href="#" class="terms">Terms & Conditions</a></div>
+            <button class="btn btn-primary btn-block confirm-button">Confirm booking</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <img src="pictures/Asset 18@4x.png" alt="Footer Logo" />
+      </div>
+      <div>
+        <p>&copy;<em id="date">2022</em> Little Lemon</p>
+      </div>
+    </footer>
+  </body>
+</html>

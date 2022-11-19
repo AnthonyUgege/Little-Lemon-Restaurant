@@ -1,0 +1,180 @@
+body {
+  background-color: #edefee;
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 3em;
+  position: absolute;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 5px;
+  text-align: left;
+}
+
+.container div {
+  position: relative;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: darkslateblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#wide-photo {
+  filter: blur(1px);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 + img {
+  width: 360px;
+  height: 240px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  flex: 1;
+}
+
+.columns {
+  max-width: 400px;
+  background-color: rgb(231, 215, 250);
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.columns p {
+  font-size: 1.2em;
+  color: grey;
+  line-height: 1.6;
+  padding-right: 10px;
+}
+
+footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: #2f1c51;
+  border-radius: 5px;
+}
+
+#copyright {
+  color: #b29885;
+  font-size: 1.3em;
+  width: 250px;
+  padding-top: 30px;
+}
+
+footer img {
+  width: 5%;
+  filter: invert(100%) sepia(19%) saturate(230%) hue-rotate(39deg) brightness(115%) contrast(100%);
+  padding: 15px 0px 15px 25px;
+}
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+}
+label.radio {
+  cursor: pointer;
+  width: 100%;
+}
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+label.radio span {
+  padding: 7px 14px;
+  border: 2px solid #eee;
+  display: inline-block;
+  color: #039be5;
+  border-radius: 10px;
+  width: 100%;
+  height: 48px;
+  line-height: 27px;
+}
+label.radio input:checked + span {
+  border-color: #039be5;
+  background-color: #81d4fa;
+  color: #fff;
+  border-radius: 9px;
+  height: 48px;
+  line-height: 27px;
+}
+.form-control {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #039be5;
+}
+.agree-text {
+  font-size: 12px;
+}
+.terms {
+  font-size: 12px;
+  text-decoration: none;
+  color: #039be5;
+}
+.confirm-button {
+  height: 50px;
+  border-radius: 10px;
+}
